@@ -1,2 +1,1 @@
-# webpack-study
-webpack 学习记录
+## webpack html-webpack-plugin 使用;

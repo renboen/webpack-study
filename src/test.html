@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        <%=
+        htmlWebpackPlugin.options.title
+        %>
+    </title>
+</head>
+
+<body>
+    <%for(key in htmlWebpackPlugin){%>
+        <h1>
+            <%=key%>
+        </h1>
+        <%}%>
+
+</body>
+
+</html>
